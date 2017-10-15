@@ -3,7 +3,8 @@
 [![OpenFaaS](https://img.shields.io/badge/openfaas-serverless-blue.svg)](https://www.openfaas.com)
 [![python](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![scikit-learn](https://badge.fury.io/py/scikit-learn.svg)](http://scikit-learn.org)
-[![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)]()
+[![Docker](https://dockerbuildbadges.quelltext.eu/status.svg?organization=adavid&repository=openfaas-scikit-learn)]
+[![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)]
 
 ## OS info :
 ```
