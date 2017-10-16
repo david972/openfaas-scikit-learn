@@ -25,6 +25,8 @@ RUN apk --no-cache add curl \
     && chmod +x /usr/bin/fwatchdog \
     && apk del curl --no-cache
 
+RUN ln -s /usr/bin/python3 /usr/bin/python
+
 WORKDIR /root/
 
 ENV fprocess="python index.py"
