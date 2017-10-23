@@ -29,6 +29,8 @@ RUN ln -s /usr/bin/python3 /usr/bin/python
 
 WORKDIR /root/
 
+COPY index.py .
+COPY function .
 ENV fprocess="python index.py"
 
 HEALTHCHECK --interval=1s CMD [ -e /tmp/.lock ] || exit 1
